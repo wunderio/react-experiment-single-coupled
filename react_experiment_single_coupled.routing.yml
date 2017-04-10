@@ -1,0 +1,8 @@
+
+react_experiment_single_coupled.react_client_controller_index:
+  path: '/front'
+  defaults:
+    _controller: '\Drupal\react_experiment_single_coupled\Controller\ReactClientController::index'
+    _title: 'React Client'
+  requirements:
+    _permission: 'access content'

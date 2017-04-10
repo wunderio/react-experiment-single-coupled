@@ -1,0 +1,5 @@
+name: React Experiment Single Coupled
+type: module
+description: Experiment: React single page application coupled to Drupal and rendered on a page with a Drupal controller.
+core: 8.x
+package: ReactExperiments

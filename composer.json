@@ -1,0 +1,19 @@
+{
+  "name": "drupal/react_experiment_single_coupled",
+  "description": "Experiment: React single page application coupled to Drupal and rendered on a page with a Drupal controller.",
+  "type": "drupal-module",
+  "homepage": "https://github.com/wunderkraut/react-experiment-single-coupled",
+  "authors": [
+    {
+      "name": "Andreas Sahle",
+    },
+    {
+      "name": "Matthew Fontana"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/wunderkraut/react-experiment-single-coupled/issues"
+  },
+  "license": "GPL-2.0+",
+  "require": { }
+}

@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function react_experiment_single_coupled_theme() {
+  return [
+    'react_client' => [
+      'template' => 'react_client',
+      'variables' => [
+        'placeholder' => NULL,
+      ],
+    ],
+  ];
+}
