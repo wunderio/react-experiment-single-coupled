@@ -2,7 +2,7 @@
   "name": "myff_members_client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/modules/custom/react_experiment_single_coupled/js/client/build",
+  "homepage": "/modules/contrib/react_experiment_single_coupled/js/client/build",
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
