@@ -1,6 +1,6 @@
 client:
   js:
-    js/client/build/static/js/main.ab2d976a.js: { minified: true }
+    js/client/build/static/js/main.2da089dc.js: { minified: true }
   css:
     component:
-      js/client/build/static/css/main.9a0fe4f1.css: { minified: true}
+      js/client/build/static/css/main.89469be9.css: { minified: true}
