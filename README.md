@@ -13,4 +13,9 @@ Experiment to test best practices, pros and cons of a react single page applicat
 * [React Router DOM](https://reacttraining.com/react-router/web/) was chosen as a solution for component based declarative routing.
 * CAVEAT: Although client side routing works well combined with routes that are answered serverside by using the `<BrowserRouter>` component, the UX is not perfect. In case the user navigates to a route that is not served by the client and uses the browser's back button, she or he will get a 404 because we have no server-side rendering for those routes. Same goes for a hard reload of one of the non base routes that normally work from within the client.
 * To solve the routing problem mentioned above we decided to use the `<HashRouter>`
- legacy component. It solves the UX problems mentioned, but not all possible plugins might work with that approach [see the docs for HashRouter](https://reacttraining.com/react-router/web/api/HashRouter)
+ legacy component. It solves the UX problems mentioned, but not all possible plugins might work with that approach [see the docs for HashRouter](https://reacttraining.com/react-router/web/api/HashRouter).
+
+ ## Step 03
+ * Client side routing enhancements & basic Forms
+ * Links have been transformed to NavLinks following this tutorial: [React Router 4 Training](https://egghead.io/lessons/react-run-the-react-router-v4-examples-with-create-react-app). Using the new functionality of NavLinks activeClassName has been used to highlight the link when it is the active route. 
+ * A basic form component (UserForm) has been rendered on MemberDataPage which simply returns the value of the text input on submit. This component follows the advice from the [Official Facebook Documentation](https://facebook.github.io/react/docs/forms.html).
