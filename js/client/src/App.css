@@ -22,3 +22,16 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+nav a {
+  margin: 5px;
+  padding: 5px;
+}
+
+nav a:visited {
+  color: blue;
+}
+
+nav a.active {
+  color: green;
+}

@@ -3,13 +3,23 @@ import {
   HashRouter as Router,
   Route,
   Switch,
-  Link
+  NavLink
 } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
 import DashboardPage from './components/DashboardPage/DashboardPage';
 import MemberDataPage from './components/MemberDataPage/MemberDataPage';
+import UserForm from './components/UserForm/UserForm';
+
+const Navigation = () => (
+  <nav>
+    <NavLink exact activeClassName="active" to="/">Dashboard</NavLink>
+    <NavLink activeClassName="active" to="/member-data">Member Data</NavLink>
+    <a href="/user">Drupal User</a>
+  </nav>
+)
+
 
 class App extends Component {
   render() {
@@ -20,16 +30,11 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
             <h2>Welcome to React</h2>
           </div>
-
-          <Link to="/">Dashboard</Link>
-          <Link to="/member-data">Member Data</Link>
-          <a href="/user">Drupal User</a>
-
+          <Navigation />
           <Switch>
             <Route exact path="/" component={DashboardPage}/>
             <Route path="/member-data" component={MemberDataPage}/>
           </Switch>
-
         </div>
       </Router>
     );
