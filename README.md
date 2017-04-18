@@ -17,5 +17,12 @@ Experiment to test best practices, pros and cons of a react single page applicat
 
  ## Step 03
  * Client side routing enhancements & basic Forms
- * Links have been transformed to NavLinks following this tutorial: [React Router 4 Training](https://egghead.io/lessons/react-run-the-react-router-v4-examples-with-create-react-app). Using the new functionality of NavLinks activeClassName has been used to highlight the link when it is the active route. 
+ * Links have been transformed to NavLinks following this tutorial: [React Router 4 Training](https://egghead.io/lessons/react-run-the-react-router-v4-examples-with-create-react-app). Using the new functionality of NavLinks activeClassName has been used to highlight the link when it is the active route.
  * A basic form component (UserForm) has been rendered on MemberDataPage which simply returns the value of the text input on submit. This component follows the advice from the [Official Facebook Documentation](https://facebook.github.io/react/docs/forms.html).
+
+## Step 04
+* Introduce validation to the form using React.
+* The goal is to display an error message when the form has been filled in incorrectly.
+* The error message appears when the user completes the field (via the onBlur React event) - as a client-side validator, and also on the submission of the form itself.
+* The React validation works alongside with HTML5 validation using the type and required attributes.
+* CSS classes are used to show/hide the field validation which are toggled inside the component's state.
