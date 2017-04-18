@@ -1,5 +1,5 @@
 import React from "react";
-import UserForm from '../UserForm/UserForm.js';
+import UserForm from './UserForm.js';
 
 const MemberDataPage = () => (
   <div>

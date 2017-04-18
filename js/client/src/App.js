@@ -10,7 +10,6 @@ import './App.css';
 
 import DashboardPage from './components/DashboardPage/DashboardPage';
 import MemberDataPage from './components/MemberDataPage/MemberDataPage';
-import UserForm from './components/UserForm/UserForm';
 
 const Navigation = () => (
   <nav>

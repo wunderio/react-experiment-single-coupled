@@ -1,0 +1,36 @@
+
+form {
+  margin: 4rem auto;
+  max-width: 400px;
+  text-align: left;
+  background-color: #ececec;
+  padding: 2rem;
+}
+
+form label {
+  display: block;
+  margin: 10px 0;
+}
+
+form input {
+  margin: 10px 0;
+  padding: 5px;
+  min-width: 300px;
+  display: block;
+}
+
+form span {
+  display: block;
+}
+
+form .error {
+  color: red;
+}
+
+form .invisible {
+  display: none;
+}
+
+form .visible {
+  display: block;
+}
